@@ -34,8 +34,8 @@ ro.media.recorder-max-base-layer-fps=60
 vendor.mm.enable.qcom_parser=16777215
 
 # NetMgr
-ro.vendor.use_data_netmgrd=true
 persist.vendor.data.mode=concurrent
+ro.vendor.use_data_netmgrd=true
 
 # NFC
 ro.nfc.port=I2C
@@ -47,14 +47,14 @@ ril.subscription.types=NV,RUIM
 telephony.active_modems.max_count=2
 
 # RmNet
-persist.rmnet.data.enable=true
-persist.data.wda.enable=true
-persist.data.df.dl_mode=5
 persist.data.df.agg.dl_pkt=10
 persist.data.df.agg.dl_size=4096
-persist.data.df.mux_count=8
-persist.data.df.iwlan_mux=9
 persist.data.df.dev_name=rmnet_usb0
+persist.data.df.dl_mode=5
+persist.data.df.iwlan_mux=9
+persist.data.df.mux_count=8
+persist.data.wda.enable=true
+persist.rmnet.data.enable=true
 
 # Time
 persist.timed.enable=true
